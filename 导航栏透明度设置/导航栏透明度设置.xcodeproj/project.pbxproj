@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7D93401B74FDFA00202A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D933F1B74FDFA00202A6C /* main.m */; };
+		1A7D93431B74FDFA00202A6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D93421B74FDFA00202A6C /* AppDelegate.m */; };
+		1A7D934B1B74FDFA00202A6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7D934A1B74FDFA00202A6C /* Images.xcassets */; };
+		1A7D934E1B74FDFA00202A6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7D934C1B74FDFA00202A6C /* LaunchScreen.xib */; };
+		1A7D935A1B74FDFA00202A6C /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D93591B74FDFA00202A6C /* ________Tests.m */; };
+		1A7D93651B74FE3E00202A6C /* WJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D93641B74FE3E00202A6C /* WJNavigationController.m */; };
+		1A7D936B1B7504F000202A6C /* WJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D936A1B7504F000202A6C /* WJTableViewController.m */; };
+		1A83FBBD1B759AF700C0038A /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A83FBBC1B759AF700C0038A /* UIImage+Color.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A7D93541B74FDFA00202A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7D93321B74FDFA00202A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A7D93391B74FDFA00202A6C;
+			remoteInfo = "导航栏透明度设置";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A7D933A1B74FDFA00202A6C /* 导航栏透明度设置.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "导航栏透明度设置.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7D933E1B74FDFA00202A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7D933F1B74FDFA00202A6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A7D93411B74FDFA00202A6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A7D93421B74FDFA00202A6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A7D934A1B74FDFA00202A6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A7D934D1B74FDFA00202A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1A7D93531B74FDFA00202A6C /* 导航栏透明度设置Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航栏透明度设置Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7D93581B74FDFA00202A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7D93591B74FDFA00202A6C /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		1A7D93631B74FE3E00202A6C /* WJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNavigationController.h; sourceTree = "<group>"; };
+		1A7D93641B74FE3E00202A6C /* WJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJNavigationController.m; sourceTree = "<group>"; };
+		1A7D93691B7504F000202A6C /* WJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTableViewController.h; sourceTree = "<group>"; };
+		1A7D936A1B7504F000202A6C /* WJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTableViewController.m; sourceTree = "<group>"; };
+		1A83FBBB1B759AF700C0038A /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		1A83FBBC1B759AF700C0038A /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A7D93371B74FDFA00202A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7D93501B74FDFA00202A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A7D93311B74FDFA00202A6C = {
+			isa = PBXGroup;
+			children = (
+				1A7D933C1B74FDFA00202A6C /* 导航栏透明度设置 */,
+				1A7D93561B74FDFA00202A6C /* 导航栏透明度设置Tests */,
+				1A7D933B1B74FDFA00202A6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A7D933B1B74FDFA00202A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D933A1B74FDFA00202A6C /* 导航栏透明度设置.app */,
+				1A7D93531B74FDFA00202A6C /* 导航栏透明度设置Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A7D933C1B74FDFA00202A6C /* 导航栏透明度设置 */ = {
+			isa = PBXGroup;
+			children = (
+				1A83FBBE1B75D99E00C0038A /* Controller */,
+				1A7D93411B74FDFA00202A6C /* AppDelegate.h */,
+				1A7D93421B74FDFA00202A6C /* AppDelegate.m */,
+				1A7D934A1B74FDFA00202A6C /* Images.xcassets */,
+				1A7D934C1B74FDFA00202A6C /* LaunchScreen.xib */,
+				1A7D933D1B74FDFA00202A6C /* Supporting Files */,
+				1A7D93691B7504F000202A6C /* WJTableViewController.h */,
+				1A7D936A1B7504F000202A6C /* WJTableViewController.m */,
+			);
+			path = "导航栏透明度设置";
+			sourceTree = "<group>";
+		};
+		1A7D933D1B74FDFA00202A6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D933E1B74FDFA00202A6C /* Info.plist */,
+				1A7D933F1B74FDFA00202A6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A7D93561B74FDFA00202A6C /* 导航栏透明度设置Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D93591B74FDFA00202A6C /* ________Tests.m */,
+				1A7D93571B74FDFA00202A6C /* Supporting Files */,
+			);
+			path = "导航栏透明度设置Tests";
+			sourceTree = "<group>";
+		};
+		1A7D93571B74FDFA00202A6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A7D93581B74FDFA00202A6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A83FBBE1B75D99E00C0038A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A83FBBB1B759AF700C0038A /* UIImage+Color.h */,
+				1A83FBBC1B759AF700C0038A /* UIImage+Color.m */,
+				1A7D93631B74FE3E00202A6C /* WJNavigationController.h */,
+				1A7D93641B74FE3E00202A6C /* WJNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A7D93391B74FDFA00202A6C /* 导航栏透明度设置 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7D935D1B74FDFA00202A6C /* Build configuration list for PBXNativeTarget "导航栏透明度设置" */;
+			buildPhases = (
+				1A7D93361B74FDFA00202A6C /* Sources */,
+				1A7D93371B74FDFA00202A6C /* Frameworks */,
+				1A7D93381B74FDFA00202A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "导航栏透明度设置";
+			productName = "导航栏透明度设置";
+			productReference = 1A7D933A1B74FDFA00202A6C /* 导航栏透明度设置.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A7D93521B74FDFA00202A6C /* 导航栏透明度设置Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7D93601B74FDFA00202A6C /* Build configuration list for PBXNativeTarget "导航栏透明度设置Tests" */;
+			buildPhases = (
+				1A7D934F1B74FDFA00202A6C /* Sources */,
+				1A7D93501B74FDFA00202A6C /* Frameworks */,
+				1A7D93511B74FDFA00202A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7D93551B74FDFA00202A6C /* PBXTargetDependency */,
+			);
+			name = "导航栏透明度设置Tests";
+			productName = "导航栏透明度设置Tests";
+			productReference = 1A7D93531B74FDFA00202A6C /* 导航栏透明度设置Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A7D93321B74FDFA00202A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = sunwenjun;
+				TargetAttributes = {
+					1A7D93391B74FDFA00202A6C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1A7D93521B74FDFA00202A6C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1A7D93391B74FDFA00202A6C;
+					};
+				};
+			};
+			buildConfigurationList = 1A7D93351B74FDFA00202A6C /* Build configuration list for PBXProject "导航栏透明度设置" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A7D93311B74FDFA00202A6C;
+			productRefGroup = 1A7D933B1B74FDFA00202A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A7D93391B74FDFA00202A6C /* 导航栏透明度设置 */,
+				1A7D93521B74FDFA00202A6C /* 导航栏透明度设置Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7D93381B74FDFA00202A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7D934E1B74FDFA00202A6C /* LaunchScreen.xib in Resources */,
+				1A7D934B1B74FDFA00202A6C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7D93511B74FDFA00202A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7D93361B74FDFA00202A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7D93651B74FE3E00202A6C /* WJNavigationController.m in Sources */,
+				1A7D936B1B7504F000202A6C /* WJTableViewController.m in Sources */,
+				1A83FBBD1B759AF700C0038A /* UIImage+Color.m in Sources */,
+				1A7D93431B74FDFA00202A6C /* AppDelegate.m in Sources */,
+				1A7D93401B74FDFA00202A6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7D934F1B74FDFA00202A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7D935A1B74FDFA00202A6C /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A7D93551B74FDFA00202A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A7D93391B74FDFA00202A6C /* 导航栏透明度设置 */;
+			targetProxy = 1A7D93541B74FDFA00202A6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A7D934C1B74FDFA00202A6C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7D934D1B74FDFA00202A6C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A7D935B1B74FDFA00202A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A7D935C1B74FDFA00202A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7D935E1B74FDFA00202A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "导航栏透明度设置/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A7D935F1B74FDFA00202A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "导航栏透明度设置/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A7D93611B74FDFA00202A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "导航栏透明度设置Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/导航栏透明度设置.app/导航栏透明度设置";
+			};
+			name = Debug;
+		};
+		1A7D93621B74FDFA00202A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "导航栏透明度设置Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/导航栏透明度设置.app/导航栏透明度设置";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7D93351B74FDFA00202A6C /* Build configuration list for PBXProject "导航栏透明度设置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7D935B1B74FDFA00202A6C /* Debug */,
+				1A7D935C1B74FDFA00202A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7D935D1B74FDFA00202A6C /* Build configuration list for PBXNativeTarget "导航栏透明度设置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7D935E1B74FDFA00202A6C /* Debug */,
+				1A7D935F1B74FDFA00202A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7D93601B74FDFA00202A6C /* Build configuration list for PBXNativeTarget "导航栏透明度设置Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7D93611B74FDFA00202A6C /* Debug */,
+				1A7D93621B74FDFA00202A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A7D93321B74FDFA00202A6C /* Project object */;
+}
